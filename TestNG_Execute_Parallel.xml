@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="TestSuite" thread-count="3" parallel="tests">
+
+	<test name="test_chrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="com.example.tests.ScenarioTest" />
+		</classes>
+	</test>
+	<test name="test_edge">
+		<parameter name="browser" value="Edge"></parameter>
+		<classes>
+			<class name="com.example.tests.ScenarioTest" />
+		</classes>
+	</test>
+<!-- 	<test name="test_firefox">
+		<parameter name="browser" value="Firefox"></parameter>
+		<classes>
+			<class name="com.example.tests.ScenarioTest" />
+		</classes>
+	</test> -->
+</suite>
